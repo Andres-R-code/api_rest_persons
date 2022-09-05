@@ -1,4 +1,3 @@
-import django_heroku
 from datetime import timedelta
 from pathlib import Path
 
