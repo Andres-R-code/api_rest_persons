@@ -1,3 +1,4 @@
+import django_heroku
 from datetime import timedelta
 from pathlib import Path
 
@@ -118,7 +119,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 # AUTH_USER_MODEL = 'users.User'
 AUTH_USER_MODEL = 'users.User'
@@ -145,6 +146,7 @@ SIMPLE_JWT = {
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_AUTHENTICATION_CLASSES': [
